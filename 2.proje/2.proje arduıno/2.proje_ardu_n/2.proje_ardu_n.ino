@@ -4,7 +4,7 @@ StepperMotor motor(8,9,10,11);
 String a;
 
 
-
+char c;
 int b;
 
 

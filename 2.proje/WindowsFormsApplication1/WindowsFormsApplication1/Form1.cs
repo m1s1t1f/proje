@@ -111,15 +111,15 @@ namespace WindowsFormsApplication1
                     b.DrawString(nesneX.ToString() + "X" + nesneY.ToString(), new Font("Times New Roman", 50), Brushes.White, new System.Drawing.Point(0, 0));
                     b.Dispose();
 
-                    if (nesneX > 0 && nesneX <= 426)
+                    if (nesneX > 0 && nesneX <= 146)
                     {
                         ld = 1;
                     }
-                    else if (nesneX > 426 && nesneX <= 852)
+                    else if (nesneX > 146  && nesneX <= 292)
                     {
                         ld = 2;
                     }
-                    else if (nesneX > 852 && nesneX <= 1280)
+                    else if (nesneX > 292 && nesneX <= 440)
                     {
                         ld = 3;
                     }

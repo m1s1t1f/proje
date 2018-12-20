@@ -100,39 +100,39 @@ namespace WindowsFormsApplication1
                     b.Dispose();
                     if (nesneX > 0 && nesneX <= 213 && nesneY > 0 && nesneY <= 153)
                     {
-                        ld=4;
+                        ld=2;
                     }
                     else if (nesneX > 213 && nesneX <= 426 && nesneY > 0 && nesneY <= 153)
                     {
-                        ld= 5;
+                        ld= 3;
                     }
                     else if (nesneX > 426 && nesneX <= 640 && nesneY > 0 && nesneY <= 153)
                     {
-                        ld = 6;
+                        ld = 4;
                     }
                     else if (nesneX > 0 && nesneX <= 213&& nesneY > 153 && nesneY <= 256)
                     {
-                        ld = 7;
+                        ld = 5;
                     }
                     else if (nesneX > 213 && nesneX <= 426 && nesneY > 153& nesneY <= 256)
                     {
-                        ld = 8;
+                        ld = 6;
                     }
                     else if (nesneX > 426&& nesneX <= 640 && nesneY > 153 && nesneY <= 256)
                     {
-                        ld = 9;
+                        ld = 7;
                     }
                     else if (nesneX > 0 && nesneX <= 213&& nesneY > 256 && nesneY <= 460)
                     {
-                        ld = 10;
+                        ld = 8;
                     }
                     else if (nesneX >213 && nesneX <= 426&& nesneY > 256 && nesneY <= 460)
                     {
-                        ld = 11;
+                        ld = 9;
                     }
                     else if (nesneX > 426&& nesneX <= 640 && nesneY > 256 && nesneY <= 460)
                     {
-                        ld = 12;
+                        ld = 10;
                     }
                     if (oncekı != ld)
                     {
